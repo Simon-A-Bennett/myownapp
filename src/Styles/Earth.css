@@ -1,0 +1,43 @@
+.earth {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;	
+	gap: 5px;	
+	padding: 0px;
+}
+
+.earth__desc {
+	background: #d308ff;
+	background: -webkit-linear-gradient(
+		to top left,
+		#d308ff 25%,
+		#0fd8f4 35%,
+		#d308ff 85%
+	);
+	background: -moz-linear-gradient(
+		to top left,
+		#d308ff 25%,
+		#0fd8f4 35%,
+		#d308ff 85%
+	);
+	background: linear-gradient(
+		to top left,
+		#d308ff 25%,
+		#0fd8f4 35%,
+		#d308ff 85%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 28px;
+	margin: 2px 50px ;
+	padding: 0;
+}
+
+img {
+	align-self: center;
+  width: 100%;
+  height: 500px;
+  object-fit: scale-down; 
+}

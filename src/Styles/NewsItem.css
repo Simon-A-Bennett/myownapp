@@ -1,0 +1,23 @@
+.newsitem {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.newsitem h2 {
+  color: #fff;
+  text-align: center;
+  
+}
+
+.newsitem h1 {
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+.newsitem p {
+  text-align: left;
+  margin: 50px;
+  font-size: 21px
+}
