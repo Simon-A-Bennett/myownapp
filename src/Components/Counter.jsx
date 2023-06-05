@@ -40,7 +40,7 @@ const Counter = () => {
 					Add one lightyear
 				</button>
 				<button onClick={() => setCount(initialCount)} className="count-btn">
-					Reset
+					Reset Count
 				</button>
 			</div>
 		</>
